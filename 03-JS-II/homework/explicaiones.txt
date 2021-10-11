@@ -1,0 +1,4 @@
+for: es una declaración de buble que hace que el código se repita mientras que una condición sea verdadera
+&&: puesto entre dos expresiones hace que el valor en conjunto sea verdadero solo en el caso de cada una de las expresiones sea verdadera
+||: puesto entre dos expresiones hace que el valor en conjunto sea falso solo en el caso de cada una de las expresiones sea falsa
+!: antecedido a un valor boolean, cambia su valor por su opuesto
