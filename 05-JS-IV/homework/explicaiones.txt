@@ -1,0 +1,5 @@
+Objetos: estructuras de código que nos permite obtener y asignar valores mediante notación clave -> valor
+Propiedades: elemntos de un objeto definidos mediante la estructura clave valor
+Métodos: funciones establecidas en un objeto, se deben llamar mediante notación punto y debe terminar con paréntesis ("objeto.metod()")
+Bucle for…in: sintaxis exclusiva de objetos para iterar en sus propiedades.
+Notación de puntos vs notación de corchetes: se puede llamar una propieda mediante notación punto (objeto.propiedad) o mediante notación corchetes (objeto["propiedad"])
