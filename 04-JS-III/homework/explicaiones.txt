@@ -1,0 +1,1 @@
+Arrays: es una estrucutura que permite agregar un conjunto de datos, también permite eliminar elementos del mismo

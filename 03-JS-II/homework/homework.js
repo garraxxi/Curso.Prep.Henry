@@ -124,7 +124,7 @@ function operadoresLogicos(num1, num2, num3) {
     //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
     if (num1 === 0 || num2 === 0 || num3 === 0)
         return "Error";
-    if (num1 > 0 || num2 > 0 || num3 > 0)
+    if (num1 < 0 || num2 < 0 || num3 < 0)
         return "Hay negativos";
     if (num1 > 0 && num1 > num2 && num1 > num3)
         return "Número 1 es mayor y positivo";
@@ -143,18 +143,19 @@ function esPrimo(numero) {
     if (numero === 0 || numero === 1)
         return false;
     var count = 0;
-    for (i = 2; i > numero; i++) {
-        if (numero % i !== 0)
+    for (var i = 2; i < numero; i++) {
+        if (numero % i === 0) {
             count++;
+        }
     }
-    return numero > 1;
+    return count === 0;
 }
 
 function esVerdadero(valor) {
     //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
     //si su valor es true y “Soy falso” si su valor es false.
     //Escribe tu código aquí
-    return valor ? "Soy verdader" : "Soy falso";
+    return valor ? "Soy verdadero" : "Soy falso";
 }
 
 function tablaDelSeis() {
@@ -162,8 +163,9 @@ function tablaDelSeis() {
     //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
     //Escribe tu código aquí   
     var table = [];
-    for (i = 0; i >= 10; i++)
-        table.push(i * 6);
+    for (var i = 0; i <= 10; i++) {
+        table[i] = i * 6;
+    }
     return table;
 
 }
@@ -171,7 +173,7 @@ function tablaDelSeis() {
 function tieneTresDigitos(numero) {
     //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
     //Escribe tu código aquí
-    return numero.toString(numero).length === 3;
+    return numero.toString().length === 3;
 }
 
 function doWhile(numero) {
@@ -180,8 +182,9 @@ function doWhile(numero) {
     //Usar el bucle do ... while.
     var eight = 1;
     do {
-        number += 5;
-    } while (eight === 8);
+        numero += 5;
+        eight++;
+    } while (eight <= 8);
     return numero;
 }
 
