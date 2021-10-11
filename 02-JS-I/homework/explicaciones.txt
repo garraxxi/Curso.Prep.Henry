@@ -1,0 +1,5 @@
+Variables: Entidad en la que se almacena información para ser usada más delante en el código
+Strings: Tipo de variable que puede almacenar información alfanumérica, se definen entre comillas
+Funciones (argumentos, `return`): bloques de código con comportamiento propio, estrictamente hablando, la función debe retornar un valor, de lo contrario se conoce como método.
+Declaraciones `if`: es un operador de control de flujo de ejecución que compara contra un valor que puede tener solo los valores verdadero o falso
+Valores booleanos (`true`, `false`): solo tienen la posibilidad de ser verdadero o falso (true or false)
