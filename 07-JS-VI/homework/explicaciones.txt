@@ -1,0 +1,1 @@
+callbacks: en javascript se da la posibilidad de pasar funciones como argumentos a otras funciones, esas funciones pasadas como argumentos son las conocidas como callbacks. Por convención se les nombra cb
