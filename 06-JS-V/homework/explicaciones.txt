@@ -1,0 +1,2 @@
+prototype: Forma única de establecer un método una vez y dar acceso a cada objeto de esa clase a esos métodos, para evitar uso excesivo de memoria por creación de métodos de objetos
+Constructors (de Clases): Permite emular herencia y polimorfismo a los objetos en javascript
